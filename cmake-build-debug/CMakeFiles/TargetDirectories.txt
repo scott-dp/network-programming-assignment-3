@@ -1,0 +1,3 @@
+C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug/CMakeFiles/tcp_server.dir
+C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
