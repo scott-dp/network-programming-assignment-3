@@ -1,0 +1,14 @@
+# ninja log v5
+1339	1388	7599546798774399	CMakeFiles/tcp_server.dir/CXX.dd	af8dc5a2ac179baa
+16	8723	7599544136530308	CMakeFiles/tcp_server.dir/main.cpp.obj	648e32d98c042194
+1339	1388	7599546798774399	CMakeFiles/tcp_server.dir/main.cpp.obj.modmap	af8dc5a2ac179baa
+4	391	7599552432406268	build.ninja	4a20b6a0eeea28d5
+38	1339	7599546798004882	CMakeFiles/tcp_server.dir/main.cpp.obj.ddi	11371646d9c10357
+8724	9062	7599544139916070	tcp_server.exe	49a5f06aa3cdd34f
+1339	1388	7599546798774399	C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug/CMakeFiles/tcp_server.dir/CXXModules.json	af8dc5a2ac179baa
+4	374	7599552432406268	build.ninja	4a20b6a0eeea28d5
+39	4501	7599552478186603	CMakeFiles/tcp_server.dir/main.cpp.obj	648e32d98c042194
+46	4932	7599552482485368	CMakeFiles/tcp_server.dir/src/WebServer.cpp.obj	bf755bdb491e0659
+12	4109	7599552898292448	CMakeFiles/tcp_server.dir/main.cpp.obj	648e32d98c042194
+14	5203	7599553385741665	CMakeFiles/tcp_server.dir/src/WebServer.cpp.obj	bf755bdb491e0659
+5204	5519	7599553388911177	tcp_server.exe	a257faf6e5793454

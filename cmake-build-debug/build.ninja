@@ -50,10 +50,18 @@ cmake_ninja_workdir = C$:/Users/scott/Documents/4.$ semester/nettverksprog/oving
 build cmake_object_order_depends_target_tcp_server: phony || CMakeFiles/tcp_server.dir
 
 build CMakeFiles/tcp_server.dir/main.cpp.obj: CXX_COMPILER__tcp_server_unscanned_Debug C$:/Users/scott/Documents/4.$ semester/nettverksprog/oving3/tcp-server/main.cpp || cmake_object_order_depends_target_tcp_server
+  DEFINES = -D_WIN32_WINNT=0x0A00
   DEP_FILE = CMakeFiles\tcp_server.dir\main.cpp.obj.d
-  FLAGS = -std=c++20 -pthread -Wall -Wextra -g -fdiagnostics-color=always
+  FLAGS = -D_WIN32_WINNT=0x0A00 -std=c++20 -lws2_32 -lmswsock -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\tcp_server.dir
   OBJECT_FILE_DIR = CMakeFiles\tcp_server.dir
+
+build CMakeFiles/tcp_server.dir/src/WebServer.cpp.obj: CXX_COMPILER__tcp_server_unscanned_Debug C$:/Users/scott/Documents/4.$ semester/nettverksprog/oving3/tcp-server/src/WebServer.cpp || cmake_object_order_depends_target_tcp_server
+  DEFINES = -D_WIN32_WINNT=0x0A00
+  DEP_FILE = CMakeFiles\tcp_server.dir\src\WebServer.cpp.obj.d
+  FLAGS = -D_WIN32_WINNT=0x0A00 -std=c++20 -lws2_32 -lmswsock -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tcp_server.dir
+  OBJECT_FILE_DIR = CMakeFiles\tcp_server.dir\src
 
 
 # =============================================================================
@@ -63,9 +71,9 @@ build CMakeFiles/tcp_server.dir/main.cpp.obj: CXX_COMPILER__tcp_server_unscanned
 #############################################
 # Link the executable tcp_server.exe
 
-build tcp_server.exe: CXX_EXECUTABLE_LINKER__tcp_server_Debug CMakeFiles/tcp_server.dir/main.cpp.obj
-  FLAGS = -std=c++20 -pthread -Wall -Wextra -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build tcp_server.exe: CXX_EXECUTABLE_LINKER__tcp_server_Debug CMakeFiles/tcp_server.dir/main.cpp.obj CMakeFiles/tcp_server.dir/src/WebServer.cpp.obj
+  FLAGS = -D_WIN32_WINNT=0x0A00 -std=c++20 -lws2_32 -lmswsock -g
+  LINK_LIBRARIES = -lws2_32  -lmswsock  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\tcp_server.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

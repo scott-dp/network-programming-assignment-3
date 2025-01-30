@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server",
+	"dir-top-bld" : "C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug",
+	"dir-top-src" : "C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/scott/Documents/4. semester/nettverksprog/oving3/tcp-server/cmake-build-debug/CMakeFiles/tcp_server.dir"
+}
